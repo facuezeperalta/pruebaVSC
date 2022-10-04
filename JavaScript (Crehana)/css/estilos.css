@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+}
+
+.contenedor{
+    display: inline-block;
+    width: 400px;
+}
+
+.texto{
+    padding: 10px;
+    background: lightblue;
+    color: whitesmoke;
+    font-size: 20px;
+    text-align: center;
+    margin: 20px auto;
+}
+
+.boton{
+    display: inline-block;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    border: 2px solid lightblue;
+    padding: 10px 30px;
+    cursor: pointer;
+    color: lightgreen;
+}
+
+.boton:hover{
+    background: lightcoral;
+    border: 2px solid lightcyan;
+    color: lightblue;
+}
+
+.fondo-rojo{
+    background: red;
+}

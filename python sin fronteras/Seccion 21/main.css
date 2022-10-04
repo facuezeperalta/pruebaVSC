@@ -1,0 +1,12 @@
+#over{
+    width: 100px;
+    height: 100px;
+    overflow-y: scroll; /* puede darse scroll, hidden,visible (valor por defecto)*/
+/* overflow también puede hacer x o si se deja solo overflow funciona en ambos */
+}
+
+img:hover{
+    float: left; /* hace que todo el espacio disponible vaya hacia el lado de
+    la propiedad*/
+    opacity: 0.9; /* Va del 0.0 al 1 */
+}

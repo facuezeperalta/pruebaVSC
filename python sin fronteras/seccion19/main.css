@@ -1,0 +1,15 @@
+body{
+    background-color: rgb(202, 202, 202);
+}
+p {
+    color: blue;
+    text-align: justify;
+    
+    text-indent: 50px;
+    letter-spacing: 1px;
+}
+a{
+    text-decoration: underline ;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+}

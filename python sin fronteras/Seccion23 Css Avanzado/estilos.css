@@ -1,0 +1,22 @@
+body{
+    background-color: lightgray;
+}
+
+.fondo{
+    height: 300px;
+    background-color: aqua;
+    background-image: url(https://www.sony.com.ar/image/4a5b25a67098fa2b32428a8e4e4eaca4?fmt=pjpeg&wid=330&bgcolor=FFFFFF&bgc=FFFFFF);
+    background-repeat: no-repeat;
+    background-position: right bottom; /*muevo la imagen.*/
+    background-attachment: fixed ; /*hace que la imagen haga o no scroll*/
+    /*Scroll es el valor por defecto.*/  
+    background-size: cover;
+    /*todas esta propiedades se pueden escbirir en una sola linea con la propiedad 
+    de background.Se debe respetar el mismo orden de arriba menos el
+    background size que se debe poner en una línea separada.*/
+}
+
+.degradado{
+    background-image: linear-gradient(-10deg, coral,tomato   ); /* direccion, color1, color2*/
+}   
+

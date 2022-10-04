@@ -1,0 +1,44 @@
+body{
+    background-color: lightgrey;
+}
+
+.grid{
+    /*display: grid; /*grid usa la grilla en cambio inline-grid usa el espacio
+    de cada elemento ocupando el equivalente en la grilla*/
+   /* grid-template-rows: 50px 50px 50px; /*cada valor es una fila*/
+   /*grid-template-rows: repeat(6,50%) 1fr;*/
+    /*grid-template-columns:80px repeat(4,1fr) 2fr; */
+    /*ademas de valores en pixeles podemos usar valores en fracciones (fr)
+    también se puede usar como medida: rem, % y cada una se puede mezclar entre
+    si.
+    minmax(1,1fr) setea valores minimos y máximos.
+    */
+    /*para dar una separación entre los elementos usar la propiedad gap para todos
+    colum-gap para las columnas
+    row-gap para las filas.
+     gap: 1px;
+    column-gap: 5px;
+    row-gap: 10px;*/
+   display: grid;
+    /*asignar nombres  alas líneas de la grillas*/
+   grid-template-rows: [fila-1-inicio] 1fr [fila-2-inicio] 1fr [fila-3-fin] 1fr; 
+   grid-template-columns: [columna-1-inicio] 1fr [columna-2-inicio] 1fr
+   [columna-3-inicio] 1fr [columna-4-end];
+   gap: 5px;
+}
+
+.element{
+    background-color: red;
+}
+
+.cabecera{
+    grid-column: columna-1-inicio / columna-4-end ;
+    grid-row: fila-1-inicio / fila-3-fin ;
+}
+
+
+
+
+
+
+

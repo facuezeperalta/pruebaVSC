@@ -1,0 +1,30 @@
+body{
+    background-color: lightgray;
+}
+
+.boxt{
+    position: relative;
+    left: 50px; 
+    top: 50px;
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+    transition: 0.3s; 
+    transition-delay: 180ms;
+    /* transform: rotate(-4deg);
+     para rotar el elemetno debe estar en diplay blocl
+    translate (x,y)
+    scale(ancho, alto)
+    skwel
+
+    */ 
+
+}
+
+.boxt:hover{
+    transform: scale(1.05, 1.05);
+    background-color: rgba(0, 0, 0, 0.1);
+}
+/*Transiciones animadas pasamos de un valor hacia otro valor de manera suave*/
+

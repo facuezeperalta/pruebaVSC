@@ -1,0 +1,49 @@
+body{
+    background-color: lightgrey;
+}
+
+.dropdown-btn{
+    background-color: lightcoral;
+    color: whitesmoke;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer; /*Cambia a la manito cuando pasamos por arriba*/
+}
+
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: lightpink;
+    min-width: 160px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5)
+}
+
+.dropdown-content a{ /*Seleccionamos todos los links dentro de la clase */
+    color: black;
+    padding: 12px 16px; /*primer valor vertical segundo horizontal*/
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover{
+    background-color: lightblue;
+}
+
+.dropdown:hover .dropdown-btn{
+    background-color: pink;
+    
+
+}
+
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+
+
+

@@ -1,0 +1,31 @@
+ul{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    position: fixed;
+    top:0;
+    left: 0;
+    width: 100%;
+    background-color: rgb(28, 27, 27);
+}
+
+li{
+    float: left;
+}
+
+li a{
+    display: block;
+    color: whitesmoke;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+}
+
+li:hover{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.contenido{
+    margin-top: 40px ;
+}
