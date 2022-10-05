@@ -3,10 +3,18 @@ body{
 }
 
 .cabecera{
+    
     display: grid;
     grid-template-areas:'Header Header' 'Content Sidebar' 'Footer Footer'; 
     grid-template-rows: 150px 1fr 150px;
     grid-template-columns: 1fr 200px;
+    /*Crear el tamaño para las filas y columnas no declaradas de manera
+    implícita.*/
+    grid-auto-rows: 130px;
+    grid-auto-flow: row;
+   /* justify-items: stretch;
+    align-items: center;*/
+    
 }
 
 .coral{
@@ -16,3 +24,10 @@ body{
 .cyan{
     background-color: lightblue ;
 }
+/*
+.item-1{
+    align-self: center;
+    justify-self: center;
+}
+*/
+
