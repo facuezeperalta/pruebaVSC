@@ -1,0 +1,46 @@
+body{
+    background-color: grey;;
+}
+#p1{
+    color: coral;;
+}
+
+#p2 {
+    color: lightblue;
+}
+
+#textolargo{ /*aplica a id*/
+    color: aqua;
+}
+
+h1{
+    color: pink;
+}
+
+h2{
+    color: red;
+}
+
+.titulo{ /* aplica a clases*/
+    color:blueviolet
+}
+/*
+Selectores de atributos.
+*/
+
+/* a[href]{
+    color: lightgreen;
+} a todos los a que tiene atributo href*/
+
+/* a[href="pagina2.html"]{
+    color: red;
+} Solo a los a que tiene el atributo de href especificado*/
+
+/* a[href $="html"]{
+    color: red;
+} a $= es para lo que terminar con el valor luego del $=*/
+
+/* a[href ^="pagina"]{
+    color:pink;
+} a los que empiezan con*/
+

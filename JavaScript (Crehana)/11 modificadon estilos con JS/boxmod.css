@@ -1,0 +1,54 @@
+*{
+    background-color: grey;
+}
+
+.texto{
+    color:aliceblue;
+}
+
+
+h1{
+    background-color: aqua;
+    padding-left: 10px;
+    margin-top: 50px;
+    font-size: 50px;
+    color: white;
+    border-radius: 10px;
+    border: solid 1px black;
+    box-shadow: 5px 5px 5px black;
+
+}
+
+
+.fondo-rojo{
+    background-color: red;
+}
+
+.boton{
+    font-size: 30px;
+    margin-top: 20px;
+    padding-top: 20px;
+    display: inline-block;
+    border-radius: 5px;
+    background-color: aqua;
+    color: black;
+    cursor: pointer;
+}
+
+.boton:hover{
+    background-color: chartreuse;
+}
+
+.boton2{
+    font-size: 30px;
+    margin-top: 20px;
+    padding-top: 20px;
+    display: inline-block;
+    border-radius: 5px;
+    background-color: red;
+    color: black;
+
+}
+.boton2:hover{
+    background-color: purple;
+}

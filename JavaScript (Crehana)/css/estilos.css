@@ -11,7 +11,7 @@ body {
 
 .contenedor{
     display: inline-block;
-    width: 400px;
+    width: 500px;
 }
 
 .texto{
@@ -41,4 +41,8 @@ body {
 
 .fondo-rojo{
     background: red;
+}
+
+.boton2{
+    background-color: red;
 }

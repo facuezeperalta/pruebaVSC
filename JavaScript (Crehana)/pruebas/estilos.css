@@ -1,0 +1,82 @@
+body{
+    background-color: lightgray;
+}
+
+.input-group{
+    margin: 10px;
+    
+}
+.contenedor{
+    display: inline-block;
+    text-align: center;
+    width: 500px;
+    margin: 50px; 
+    padding: 50px;
+    background-color: whitesmoke;
+    border-radius: 10px;
+}
+
+input[type="text"], input[type="email"]{
+    width: 50%;
+    padding: 10px;
+    outline: none;
+}
+
+input[type="radio"]:first-child{
+    margin-left: 10px;
+}
+
+input[type="submit"]{
+    width: 50%;
+    border: solid black;
+    box-shadow: 5px 0px 5px rgba(0, 0, 0, 0.4)  ;
+    color: black;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.disabled{ 
+    color: lightgray;
+    cursor: not-allowed;
+
+}
+
+.disabled input, .disabled label{
+    color: lightgray;
+    cursor: not-allowed;
+}
+
+.boton{
+    margin-top: 10px;
+    display: inline-block;
+    background-color: lightgray;;
+    border-radius: 10px;
+    border: 2px solid black;
+    padding: 10px 30px;
+    cursor: pointer;
+    color: black;
+}
+
+.boton:hover{
+    
+    background-color: lightpink;
+}
+
+.texto{
+    background-color: lightblue;
+    border-radius: 5px;
+    color: whitesmoke  ;
+    border: solid 1px peachpuff;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.texto2{
+    background-color: lightseagreen;
+    border-radius: 10px;
+    color: blacklist  ;
+    border: solid 2px peachpuff;
+    padding: 10px;
+    margin-top: 10px;
+}

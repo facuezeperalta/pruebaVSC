@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="miestilo.css">
+</head>
+<body>
+   <!--  <div class="container">
+        <div class="row">
+            <div class="col-6 bg-light">Columna 1</div>
+            <div class="col-6 bg-success">Columna 2</div>
+            <div class="row">
+                <div class="col-12 prueba ">Columna 3</div>
+            </div>
+            <div>
+                <div class="col-12 bg-info"> columna 4</div>
+            </div>
+            <div class="col-sm-5 col-md-6 col-lg-12">columna 5</div>
+        </div>
+    </div> -->
+    <!--Gutter = g da espaciado a las columnas. clase p que se refiere a padding y 
+    m a margin y b de border.-->
+
+    <div class="container">
+        <div class="row gx-5 gy-3"> <!-- Gx espaciado en x
+        Gy en vertical o eje y, siempre va en la clase row.-->
+            <div class="col">
+                <div class="p-2 border bg-light">Costum column padding</div>
+            </div>
+            <div class="col">
+                <div class="p-2 border bg-light">Costum column padding</div>
+            </div>
+            <div class="col-12">
+                <div class="p-4 border bg-light">Costum column padding</div>
+            </div>
+        </div>
+    </div>
+    <!--Form control-->
+    <div class="container">
+        <div class="row">
+            <div class="col-4 offset-4 gy-5">
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label" >Email Addres</label>
+                    
+                    <input type="text" class="form-control" placeholder="enter your email">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlInput2" class="form-label">Description</label>
+                    <textarea class="form-control"  id="exampleFormControlTextArea" cols="5" rows="3" placeholder="send us your feedback"></textarea>
+                </div>
+            </div>
+        </div>
+    </div>
+   
+
+</body>
+</html>
